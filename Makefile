@@ -6,3 +6,9 @@ build:
 
 test:
 	@$(GO) test ./...
+
+run:
+	bootdev run
+
+submit:
+	bootdev submit
